@@ -1,0 +1,488 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* Logo section */
+.navbar-brand {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand:hover {
+    color: rgb(238, 11, 105) !important;
+}
+
+#myNavbar {
+    margin-bottom: 10000px;
+}
+
+/* Navbar Section */
+.nav-item a {
+    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.navbar-custom .nav-item .nav-link:hover {
+    color: rgb(238, 11, 105);
+}
+
+/* Overriding Bootstrap styling */
+.selected {
+    color: rgb(238, 11, 105) !important;
+    text-decoration: none;
+}
+
+.selected:hover {
+    color: green !important;
+}
+
+.unselected {
+    color: white !important;
+}
+
+.unselected:hover {
+    color: rgb(238, 11, 105) !important;
+}
+
+/* Navbar Icons */
+.nav-icon a {
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.nav-icon a:hover {
+    color: rgb(238, 11, 105);
+}
+
+/* Index main Landingpage  */
+#mycarousel {
+    margin-top: 8vh;
+    height: 90vh;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+#advert {
+    position: relative;
+    top: -55%;
+    left: 35%;
+    padding-top: 20px;
+    width: 25%;
+    height: 20%;
+    font-weight: bold;
+    background: rgb(238, 11, 105);
+    border: 1px solid rgb(238, 11, 105);
+}
+
+#c-text {
+    position: absolute;
+    left: -30%;
+    top: 30%;
+}
+
+#fanImg {
+    width: 100vw;
+    object-fit: contain;
+}
+
+/* Button on the advert product on the landing page */
+a.p_btn {
+    text-decoration: none;
+    height: 45px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    transition: all 0.4s;
+    cursor: pointer;
+    background: transparent;
+    color: rgb(238, 11, 105);
+}
+
+a.p_btn:hover {
+    color: white;
+    padding: 10px;
+    background: rgb(238, 11, 105);
+    border: 1px solid rgb(238, 11, 105);
+    transition: all 0.4s;
+}
+
+/* Button on Home to show more products */
+a .h_btn {
+    height: 45px;
+    width: 10%;
+    text-decoration: none;
+    position: relative;
+    left: 110px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    transition: all 0.4s;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+}
+
+a .h_btn:hover {
+    color: white;
+    position: relative;
+    left: 110px;
+    background: rgb(238, 11, 105);
+    border: 1px solid rgb(238, 11, 105);
+    transition: all 0.4s;
+}
+
+
+/* Section Products */
+/* Our Product section on landing page and products page */
+h1 a {
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: rgb(238, 11, 105);
+    transition: all 0.4s;
+}
+
+.product {
+    background: black;
+}
+
+.discount {
+    height: 50px;
+    width: 50px;
+    background: rgb(238, 11, 105);
+    border-radius: 50%;
+    padding: 12px 5px;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+/* Cart on products */
+.circle1 {
+    height: 70px;
+    width: 70px;
+    background: white;
+    color: black;
+    border-radius: 50px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.mix:hover .circle1 {
+    transition: all 0.4s;
+    opacity: 1;
+}
+
+.circle1:hover {
+    background: black;
+    color: white;
+    transition: all 0.4s;
+}
+
+
+/* Chip button on product section */
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip a {
+    text-decoration: none;
+    color: black;
+}
+
+.chip:hover {
+    background-color: rgb(238, 11, 105);
+}
+
+.chip a:hover {
+    color: white;
+    background-color: rgb(238, 11, 105);
+}
+
+.chip {
+    margin: 10px;
+}
+
+/* Like on product */
+.circle2 {
+    height: 70px;
+    width: 70px;
+    background: white;
+    color: black;
+    border-radius: 50px;
+    padding: 20px;
+    padding-left: 25px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.mix:hover .circle2 {
+    transition: all 0.4s;
+    opacity: 1;
+}
+
+.circle2:hover {
+    background: black;
+    color: white;
+    transition: all 0.4s;
+}
+
+/*Buttons on card of products */
+a.pbtn {
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    color: rgb(238, 11, 105);
+    text-decoration: none;
+}
+
+a.pbtn:hover {
+
+    color: black;
+    background: rgb(238, 11, 105);
+    transition: all .30s;
+}
+
+/* FAQs Section */
+#f_section {
+    margin: 70px;
+}
+
+/* About Us */
+#a_section {
+    margin: 70px;
+}
+
+/* Contact Section */
+#c_section {
+    margin: 70px;
+}
+
+/* Profile section */
+
+#profile-button {
+    padding-left: 21px;
+    padding-right: 17px;
+    margin-left: 95vh;
+    height: 100px;
+    width: 150px;
+    border: 2px inset white;
+    border-radius: 10px;
+    background-color: black;
+}
+
+/* Account dropdown section */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    left: 40%;
+    top: 100%;
+}
+
+.visible {
+    display: block;
+}
+
+.not-visible {
+    display: none;
+}
+
+/* Login Section */
+#login_in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+#login_in a {
+    text-decoration: none;
+    color: white;
+}
+
+#login_in a:hover {
+    color: rgb(238, 11, 105);
+}
+
+/* Sign Up section */
+#sign_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+#sign_up a {
+    text-decoration: none;
+    color: white;
+}
+
+#sign_up a:hover {
+    color: rgb(238, 11, 105);
+}
+
+/* Product Page */
+body {
+    background-color: #ecedee
+}
+
+.card {
+    border: none;
+    overflow: hidden
+}
+
+.thumbnail_images ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px
+}
+
+.thumbnail_images ul li {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #eee;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.thumbnail_images ul li:hover {
+    border: 2px solid #000
+}
+
+.main_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    height: 400px;
+    width: 100%;
+    overflow: hidden
+}
+
+.content p {
+    font-size: 12px;
+}
+
+.ratings span {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.right-side {
+    position: relative;
+}
+
+/* Footer Section */
+.iconic {
+    text-align: justify;
+    font-family: 'prompt', sans-serif;
+}
+
+.icon {
+    color: rgb(238, 11, 105);
+    font-size: 2.5rem;
+}
+
+.news {
+    background: rgb(6, 6, 6);
+    font-family: 'prompt', sans-serif;
+}
+
+.news a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+}
+
+.news a:hover {
+    color: rgb(238, 11, 105);
+    padding-left: 5px;
+}
+
+.btns {
+    height: 50px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: rgb(238, 11, 105);
+    font-weight: bold;
+}
+
+.sub {
+    height: 50px;
+    width: 70%;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    background: rgb(53, 49, 49);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.circle:hover {
+    background: white;
+    color: rgb(53, 49, 49);
+}
+
+.copy {
+    color: rgb(53, 49, 49);
+}
